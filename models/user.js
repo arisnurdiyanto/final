@@ -12,8 +12,8 @@ const userSchema = new mongoose.Schema({
   },
   role: {
     type: String,
-    enum: ['admin', 'user'], // Sesuaikan dengan peran yang diperlukan.
-    default: 'user', // Ganti nilai default sesuai kebutuhan.
+    enum: ['admin', 'user'],
+    default: 'user',
   },
 });
 
